@@ -1,0 +1,15 @@
+{
+  "name": "egipcias",
+  "version": "1.0.0",
+  "description": "Fracoes egipcias varridas em Node puro: o algoritmo guloso de Fibonacci contra a expansao mais curta achada por busca, em BigInt.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "test": "node --test testes/*.test.js",
+    "medir": "node ferramentas/medidor.js"
+  },
+  "license": "MIT",
+  "private": false
+}
